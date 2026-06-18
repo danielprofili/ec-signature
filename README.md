@@ -21,12 +21,11 @@ The main function is `ECsig`.
 
 ## Example
 Let
-
-    ```
+```
   F = [ 1  -2  ]       G =  [ 1        p^2+p  p + 1 ]
       [ -2  1  ] ,          [ p^2 + p  -p     p - 1 ]
                             [ p + 1    p - 1  p     ]
-     ```
+```
 
 where `p` is a parameter. Suppose we would like to find a
 quantifier-free condition
