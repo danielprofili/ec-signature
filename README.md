@@ -41,7 +41,7 @@ Make sure that Maple's working directory is the same directory as the
 ```
 restart:
 with(LinearAlgebra):
-read(`ECSignature.mpl`);
+read("ECSignature.mpl");
 F := Matrix([[1,-2],[-2,1]]);
 G := Matrix([[1, p^2 + p, p + 1], [p^2 + p, -p, p-1], [-p + 1, p - 1, p]]);
 Csig, Asig := ECSig(F,G);
