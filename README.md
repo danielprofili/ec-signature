@@ -9,7 +9,9 @@ quantifier-free condition on the entries of the matrices so that their
 eigenvalues are arranged in the given way.
 
 This implementation uses the theory of generalized real root counting
-and the signature of matrices. See [1] for more details.
+and the signature of matrices. See
+[ec-symmetry](https://github.com/danielprofili/ec-symmetry) for an
+alternative algorithm which solves the same problem.
 
 ## Usage
 The main function is `ECsig`.
