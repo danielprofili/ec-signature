@@ -38,7 +38,7 @@ arranged as follows:
 Make sure that Maple's working directory is the same directory as the
 `ECSignature.mpl` script. In a Maple worksheet, enter the following.
 
-    ```
+```
 restart:
 with(LinearAlgebra):
 read(`ECSignature.mpl`);
